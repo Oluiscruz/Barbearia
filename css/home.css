@@ -162,3 +162,80 @@ body{
     border-radius: 8px;
 }
 
+
+@media only screen and (max-width:900px){
+
+.container .itens{
+    height: 50vh;
+    display: flex;
+}
+.container .itens .content-box img{
+    width: 100px;
+    height: 100px;
+    margin-left: -30px;
+}
+.container .itens>h2{
+    font-size: 25pt;
+    margin: 25px;
+}
+}
+@media only screen and (max-width:700px){
+.container .header{
+    width: 145vw;
+}
+.container .header h1{
+    font-size: 15pt;
+}
+.container .header .list li a{
+    margin: 25px;  
+    font-size: 10pt;
+    font-weight: 750;
+    cursor: pointer;
+}
+.container .section{
+    height: 60vh;
+    width: 145vw;
+
+}
+.container .left>h1{
+    font-size: 20pt;
+}
+.container .left button{
+    font-weight: 800;
+    font-size: 12pt;
+    padding: 10px 10px;
+    outline: none;
+    
+    margin-left: 15px;
+    margin: 5px;
+}
+.container .right img{
+    width: 200px;
+    height: 200px;
+}
+.container .itens{
+    height: 100vh;
+    width: 145vw;
+    display: flex;
+    flex-direction: column;
+}
+.container .itens .content-box{
+    background: #ccc;
+    width: 350px;
+    height: 270px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .itens .content-box img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ccc;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.568);
+    margin-top:10px;
+}
+
+}
